@@ -167,7 +167,7 @@ function canReachPosition(userTeam, oppositionTeam, userRuns, opponentRuns, user
     const userTeamPosition = sortedTeams.findIndex(team => team.name === userTeam.name) + 1;
 
     return {
-        canReach: userTeamPosition <= desiredPosition,//true if desiredPosition is got else false
+        canReach: userTeamPosition == desiredPosition,//true if desiredPosition is got else false
         currentPosition: userTeamPosition,
         updatedUserTeam
     };
