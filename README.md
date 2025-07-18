@@ -67,7 +67,17 @@
 --- 
 
 <div align="center">
-![alt text](images/1.png)
+   <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+<img width="460" height="360" alt="Screenshot 2025-07-18 124950" src="https://github.com/user-attachments/assets/cbf68f7a-4962-4b9f-bb32-f1bac2c65599" />
+<img width="460" height="360" alt="Screenshot 2025-07-18 130613" src="https://github.com/user-attachments/assets/e9d577d1-9ab1-4e83-bc47-1cf6d4cc2f05" />
+<img width="460" height="360" alt="Screenshot 2025-07-18 130742" src="https://github.com/user-attachments/assets/2076c290-40b0-43d3-82ba-90813be398d4" />
+<img width="460" height="360" alt="Screenshot 2025-07-18 130829" src="https://github.com/user-attachments/assets/6e530310-1eeb-4ce7-9555-505232cceb32" />
+<img width="460" height="360" alt="Screenshot 2025-07-18 130938" src="https://github.com/user-attachments/assets/77145b13-eb23-4405-a566-4fe39b9bc024" />
+<img width="460" height="360" alt="Screenshot 2025-07-18 131043" src="https://github.com/user-attachments/assets/85211bde-b5c6-4539-8043-3c3397a31192" />
+   </div>
+   
+--- 
+
 **Made with ❤️ for cricket fans and developers**
 
 ![Cricket](https://img.shields.io/badge/Sport-Cricket-green?style=flat-square)
