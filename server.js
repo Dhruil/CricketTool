@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3001; // if we have to give port in environment variable then it choose that
 
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 
 // Initial points table data

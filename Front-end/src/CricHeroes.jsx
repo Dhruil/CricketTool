@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 // API Configuration
-const API_BASE_URL = "http://localhost:3001/api";
+const API_BASE_URL = "/api";
 
 // API Service Functions
 const apiService = {
@@ -33,6 +33,7 @@ const apiService = {
       });
       return response.data;
     } catch (error) {
+      console.log(error)
       throw new Error(error.response?.data?.error || "Calculation failed");
     }
   },
@@ -110,15 +111,16 @@ export default function CricHeroes() {
     try {
       const response = await apiService.calculatePosition(formData);
       //   console.log(formData);
+      // console.log(response+"err")
       if (response.success) {
         setResult(response.data);
         console.log(response.data);
       } else {
-        // console.log(response.error);
+        // console.log(response +"error c");
         throw new Error(response.error || "Calculation failed");
       }
     } catch (err) {
-      console.log(err);
+      console.log(err+"err catch  ");
       setError(err.message);
     } finally {
       setIsLoading(false);
